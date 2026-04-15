@@ -1,4 +1,4 @@
-const { createHotelService, updateHotelService, getHotelByIdService, deleteHotelByIdService } = require("../../../../services/admins/hotels.service");
+const { createHotelService, updateHotelService, getHotelByIdService, deleteHotelByIdService } = require("../../../../../services/admins/hotels.service");
 
 const createHotelController = async (req, res) => {
     try {
@@ -127,4 +127,4 @@ const deleteHotelController = async (req, res) => {
     }
 };
 
-module.exports = { createHotelController, updateHotelController, getHotelByIdController, deleteHotelController};
+module.exports = { createHotelController, updateHotelController, getHotelByIdController, deleteHotelController };

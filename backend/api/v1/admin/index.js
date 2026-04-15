@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const { hotelsRouter } = require("./hotels");
-const { validateUser}=require("../../../middlewares/authHandler")
+const { validateUser } = require("../../../../middlewares/authHandler")
 
 const adminRouter = Router();
 

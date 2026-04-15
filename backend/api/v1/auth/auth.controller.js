@@ -1,5 +1,5 @@
 const bcrypt = require("bcryptjs");
-const { User } = require("../../../models/userSchema");
+const { User } = require("../../../../models/userSchema");
 const jwt = require("jsonwebtoken");
 
 
@@ -44,9 +44,9 @@ const loginController = async (req, res) => {
             process.env.JWT_SECRET,
             { expiresIn: "7d" }
         );
-        
+
         res.cookie("authorization", token, {
-            httpOnly: true,      
+            httpOnly: true,
             maxAge: 24 * 60 * 60,
             secure: true,
         });

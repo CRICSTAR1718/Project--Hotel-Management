@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const { authRouter } = require("./auth/index.js");
-const { adminRouter } = require("./admin");
+const { adminRouter } = require("./admin/index.js");
 
 const v1Router = Router();
 
