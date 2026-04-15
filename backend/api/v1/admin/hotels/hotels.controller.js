@@ -1,4 +1,4 @@
-const { createHotelService, updateHotelService, getHotelByIdService, deleteHotelByIdService } = require("../../../../../services/admins/hotels.service");
+const { createHotelService, updateHotelService, getHotelByIdService, deleteHotelByIdService } = require("../../../../services/admins/hotels.service.js");
 
 const createHotelController = async (req, res) => {
     try {
