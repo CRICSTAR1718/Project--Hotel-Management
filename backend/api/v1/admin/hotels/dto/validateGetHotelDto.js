@@ -1,4 +1,4 @@
-const { getHotelByIdService } = require("../../../../../../services/admins/hotels.service");
+const { getHotelByIdService } = require("../../../../../../services/admins/hotels.service.js");
 
 const validateGetHotelDto = async (req, res, next) => {
     try {
